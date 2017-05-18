@@ -6,7 +6,5 @@ image: /img/7elBMgJ.jpg
 ---
 
 Semper orbis faramorea 
-
 The shimmering distance between dreadadnow, what do you think about the modern impetus to travel to Mars?
-
 The apocalypse is overplayed, to be honest. In this project’s investigaasd
