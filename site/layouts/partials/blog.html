@@ -1,17 +1,20 @@
-<div class=" pv4">
+<div class="pv4">
 	<div class="ph3 mw7 center" style='min-height:80vh'>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
 			{{ range where .Data.Pages "Type" "post" }}
-				<div class="ph1-ns w-100-ns flex">
-					{{ .Render "li" }}
-				</div>
+				{{ if .Params.draft }}
+				{{ else }}
+					<div class="ph1-ns w-100-ns flex lh-title">
+						{{ .Render "li" }}
+					</div>
+				{{end}}
 			{{ end }}
 		</div>
 
-		<div class="tc">
+		<!-- <div class="tc">
 			<a href="/post" class="btn raise">Read more</a>
-		</div>
+		</div> -->
 
 	</div>
 </div>

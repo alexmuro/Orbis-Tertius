@@ -5,6 +5,7 @@ description: >-
   Let's figure out how train and run a neural network to turn speech into text
   on a single GPU computer.
 image: null
+draft: true
 ---
 
 I'm interested in computer systems that interact well with humans which is a broad and difficult task. To narrow that down to a place to start I have decided to look at speech to text, a problem space that has seen great advancement in the last year. To start I am going to look at available open source implementations of text to speech deep learning implementations.

@@ -3,7 +3,12 @@
 		{{ .Date.Format "Mon, Jan 2, 2006" }}
 	</p>
 	<span class="b primary f6">{{ .Title }}</span>
-	<span>{{ .Type }}</span>
+	<span class="pa3" >{{ if .Params.categories }}
+    		{{range .Params.categories}}
+    			{{ . }}
+    		{{end}}
+    	{{end}}
+    </span>
 	<!-- <div style="color:grey; font-size:16px;">
 	 	{{ if .Params.tags }}
 		 	<strong>Tags:</strong> 

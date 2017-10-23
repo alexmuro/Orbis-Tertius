@@ -2,8 +2,9 @@
 title: A Fortress
 date: 2017-05-23T08:42:26.000Z
 categories: ["poem"]
+draft: true
 ---
-
+<pre>
 On the morning of the second day
 Julius with twinkling eyes began
 on the sidewalks who steady stay
@@ -17,3 +18,4 @@ with interminable warmth and foolishness
 who seem so close yet are so far
 while passing souls listen with disdain
 oh Eupheus were your words not plain?
+</pre>
