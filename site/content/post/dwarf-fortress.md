@@ -1,7 +1,9 @@
 ---
+categories:
+  - poem
 title: A Fortress
 date: 2017-05-23T08:42:26.000Z
-categories: ["poem"]
+description: an introduction.
 ---
 
 On the morning of the second day
