@@ -1,5 +1,5 @@
 .normal { font-weight: normal; }
-.b      { font-weight: var(--bold-font-weight); }
+.b      { font-weight: var(--bold-font-weight); font-family: Orbitron, sans-serif }
 .fw1    { font-weight: 100; }
 .fw2    { font-weight: 200; }
 .fw3    { font-weight: 300; }

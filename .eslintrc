@@ -15,7 +15,7 @@ ecmaFeatures:
   destructuring: true
   forOf: true
   generators: true
-  jsx: true
+  jsx: false
   modules: true
   objectLiteralShorthandMethods: true
   objectLiteralShorthandProperties: true

@@ -1,8 +1,26 @@
-<a href="{{ .Permalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
-
-	<h2 class="mb1 primary">{{ .Title }}</h2
-    >
-	<p class="mid-gray">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+<a href="{{ .Permalink }}" class="widget no-underline pa3 br1 mb2 db w-100">
+	<p class="mid-gray" style="float:right;" >
+		{{ .Date.Format "Mon, Jan 2, 2006" }}
+	</p>
+	<span class="b primary f6">{{ .Title }}</span>
+	<span>{{ .Type }}</span>
+	<!-- <div style="color:grey; font-size:16px;">
+	 	{{ if .Params.tags }}
+		 	<strong>Tags:</strong> 
+		 	{{range .Params.tags}}
+		 		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}
+	 	{{end}}
+	</div>
+    <div style="color:grey; font-size:16px;">
+    	{{ if .Params.categories }}
+    		<strong>Categories:</strong> 
+    		{{range .Params.categories}}
+    			<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> 
+    		{{end}}
+    	{{end}}
+    </div> -->
 	
-
+	
+	
+	
 </a>
